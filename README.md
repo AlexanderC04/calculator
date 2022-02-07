@@ -10,7 +10,7 @@ Your calculator is going to contain functions for all of the basic math operator
 
 #### Desktop
 
-![](./images/screenshotdesktop.png)
+![](/screenshotdesktop.png)
 
 ### Links
 
