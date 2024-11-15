@@ -7,5 +7,35 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body class="page">
+    <div class="calculator">
+      <div class="calculator__display">
+        <div class="calculator__display-no-current">
+          <p class="calculator__display--old-value"></p>
+          <p class="calculator__display--operator"></p>
+        </div>
+        <p class="calculator__display--current-value"></p>
+      </div>
+      <div class="keys-container calculator__keys-container">
+        <button class="keys keys-clear-all">AC</button>
+        <button class="keys keys-delete">&#9003;</button>
+        <button class="keys keys-number">7</button>
+        <button class="keys keys-number">8</button>
+        <button class="keys keys-number">9</button>
+        <button class="keys keys-operation keys-divide">&divide;</button>
+        <button class="keys keys-number">4</button>
+        <button class="keys keys-number">5</button>
+        <button class="keys keys-number">6</button>
+        <button class="keys keys-operation keys-multiply">&times;</button>
+        <button class="keys keys-number">1</button>
+        <button class="keys keys-number">2</button>
+        <button class="keys keys-number">3</button>
+        <button class="keys keys-operation keys-minus">&minus;</button>
+        <button class="keys keys-number">.</button>
+        <button class="keys keys-number">0</button>
+        <button class="keys keys-equal">&equals;</button>
+        <button class="keys keys-operation keys-plus">&plus;</button>
+      </div>
+    </div>
+  </body>
 </html>
